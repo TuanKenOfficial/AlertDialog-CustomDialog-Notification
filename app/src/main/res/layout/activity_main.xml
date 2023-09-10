@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgGautruc"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/images"/>
+
+    <TextView
+        android:text="Nhập Tên:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNhapten"
+        android:textStyle="normal|bold"
+        android:textColor="@color/mauTextViewNhapTen"
+        android:textAlignment="textStart" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtTen"
+        android:hint="Nhập tên ở đây" />
+
+    <Button
+        android:text="Xác nhận"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnXacNhan"
+        android:layout_gravity="right" />
+
+    <Button
+        android:text="Chuyển màn hình"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnChuyenmanhinh"
+        android:layout_gravity="right" />
+    <TextView
+        android:text="Kết quả:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtKetqua"
+        android:textStyle="italic|bold"
+        android:textColor="@color/mauTextViewKetQua"
+        android:textAlignment="textStart" />
+    <Button
+        android:onClick="btnCustomDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Mở custom dialog cách 1" />
+
+    <Button
+        android:onClick="btnCustomDialog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Mở custom dialog cách 2" />
+
+    <Button
+        android:onClick="btnNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Notification" />
+
+
+</LinearLayout>

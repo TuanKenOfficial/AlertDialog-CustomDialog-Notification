@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".NotificationActivity">
+
+    <Button
+        android:id="@+id/btnMoNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mở Notification"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btnDongNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đóng Notification"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:textSize="20sp"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtChiTiet"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="1"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:padding="5dp"-->
+<!--        android:textSize="30sp"/>-->
+
+</LinearLayout>
